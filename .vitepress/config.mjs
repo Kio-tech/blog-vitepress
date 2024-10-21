@@ -3,6 +3,7 @@ import { set_sidebar } from "../utils/auto-gen-sidebar.mjs";	// 自动生成侧�
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/blog-vitepress/",  // 使用Github Pages部署增加的配置
   head: [["link", { rel: "icon", href: "/jumao.svg" }]], // 配置地址栏图标
   title: "商秋的BLOG",
   description: "网站描述",
